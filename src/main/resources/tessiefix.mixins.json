@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "vg.skye.tessiefix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EntityMixinMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

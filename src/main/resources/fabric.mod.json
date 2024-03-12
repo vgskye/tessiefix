@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "tessiefix",
+	"version": "${version}",
+	"name": "TessieFix",
+	"description": "Variably horrendous quick-fixes for the HTSTEM modded minecraft server.",
+	"authors": [
+		"Skye"
+	],
+	"contact": {
+		"sources": "https://github.com/vgskye/tessiefix"
+	},
+	"license": "WTFPL",
+	"icon": "assets/tessiefix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"vg.skye.tessiefix.TessieFix"
+		]
+	},
+	"mixins": [
+		"tessiefix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
